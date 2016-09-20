@@ -1,0 +1,26 @@
+Two years ago at our company offsite, we had everyone stand in a big circle and 
+introduce themselves in front of the entire company (in justsentenceor two)
+Even though everything was done efficiently, it still took quite a while! Similarly, 
+when passing out the latest T-shirt or water bottle to celebrate a company milestone, 
+it can sometimes take a while to get things passed out. 
+
+Our marketing team pitched a new way of trying to distribute the next t-shirt at the
+next offsite, and came up with a plan - given everyone was going to be in a big circle
+ anyway, why not just pass things out there? With a few peogle given a box of coffee 
+mugs to start with, each person would take turns, if they had more than one mug 
+passing one to the person to their left, and one to the person to their right, with 
+success declared when everyone had one [or, if the wrong number of items were made, 
+some poor unfortunates ended up with none). 
+
+They tasked engineering with figuring out how long it would take, if each pass took
+ one second. We're passing the task along to you! 
+
+Input consists of two lines; the first is the number of employees that will be present,
+ and the second is a space-delimited set of values of the number of mugs that the 
+person at that position start with.
+For example, with the input:
+6
+
+0 0 2 3 0 0
+
+The final answer would be 8 seconds, since 8 moves are required
